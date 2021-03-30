@@ -1,0 +1,5 @@
+<launch>
+ <group ns="$(env VEHICLE_NAME)">
+    <node pkg="lab4" name="odom" type="odometry.py"/>
+ </group>
+</launch>

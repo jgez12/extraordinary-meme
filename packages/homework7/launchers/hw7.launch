@@ -1,0 +1,5 @@
+<launch>
+    <include file="eece5560/packages/odometry_hw/launch/odom_hw.launch"/>
+    <node pkg="homework7" name="odom_hw7" type="odometry_hw7.py"/> 
+
+</launch>
